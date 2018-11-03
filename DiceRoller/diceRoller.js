@@ -12,8 +12,6 @@ function setup() {
 function draw() {
   background(200);
   dice.draw();
-
-
 }
 
 function keyPressed() {
@@ -28,8 +26,7 @@ function keyPressed() {
   } else {
     if (!isNaN(String.fromCharCode(keyCode))) {
       input += String.fromCharCode(keyCode);
-      console.log(input);
-      
+      console.log(input);  
     }
   }
 
